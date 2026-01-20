@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>UniBook</title> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+    <header class="hero">
+        <div class="hero-background">
+            <div class="hero-particles"></div>
+            <div class="hero-gradient"></div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-badge">
+                <span class="badge-text">🚀 Nuevo Editor 2025</span>
+            </div>
+            <img src="assets1/Logo-completo-UniBook.png" alt="UniBook Logo" class="hero-logo">
+            <h1 class="hero-title">
+                <span class="title-gradient">UniBook</span>
+                <span class="title-subtitle">Editor de Texto Profesional</span>
+            </h1>
+            <p class="hero-description">
+                La herramienta definitiva para estudiantes que buscan máxima productividad 
+                y cero distracciones. Diseñado con ❤️ para el éxito académico.
+            </p>
+            <div class="hero-actions">
+                <a href="https://zavalastudio.itch.io/" target="_blank" class="btn btn-primary">
+                    <i class="fas fa-download"></i>
+                    Descargar gratis
+                </a>
+                <a href="#features" class="btn btn-secondary">
+                    <i class="fas fa-play-circle"></i>
+                    Ver características
+                </a>
+            </div>
+            <div class="hero-stats">
+                <div class="stat-item">
+                    <span class="stat-number">43MB</span>
+                    <span class="stat-label">Ultra Ligero</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">100%</span>
+                    <span class="stat-label">Gratis</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">5★</span>
+                    <span class="stat-label">Calidad</span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="assets1/Logo-completo-UniBook.png" alt="UniBook" class="nav-logo-img">
+                <span>UniBook</span>
+            </div>
+            <div class="nav-links">
+                <a href="#features">Características</a>
+                <a href="#about">¿Qué es?</a>
+                <a href="#videos">Videos</a>
+                <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">
+                    <i class="fas fa-moon" id="theme-icon"></i>
+                </button>
+                <a href="https://zavalastudio.itch.io/" target="_blank" class="btn-nav">Descargar</a>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section id="about" class="about">
+            <h2>¿Qué es UniBook?</h2>
+            <p>
+                UniBook es un editor de texto ligero (43mb), creado para estudiantes
+                que quieren concentrarse y tomar apuntes sin distracciones en hora de clase.
+            </p>
+        </section>
+
+        <section id="features" class="features">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Características Premium</h2>
+                    <p class="section-subtitle">Diseñado con las mejores prácticas y tecnología de vanguardia</p>
+                </div>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon-wrapper">
+                            <div class="feature-icon">
+                                <i class="fas fa-gift"></i>
+                            </div>
+                            <div class="feature-badge">Popular</div>
+                        </div>
+                        <h3>Completamente Gratis</h3>
+                        <p>Acceso ilimitado sin costos ocultos. Disfruta de todas las funcionalidades sin pagar nada.</p>
+                        <div class="feature-features">
+                            <span class="feature-tag">Sin anuncios</span>
+                            <span class="feature-tag">Full version</span>
+                        </div>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon-wrapper">
+                            <div class="feature-icon">
+                                <i class="fas fa-rocket"></i>
+                            </div>
+                            <div class="feature-badge">Ultra rápido</div>
+                        </div>
+                        <h3>Ultra Ligero</h3>
+                        <p>Solo 43 MB de espacio. Inicio instantáneo y rendimiento optimizado</p>
+                        <div class="feature-features">
+                            <span class="feature-tag">43 MB</span>
+                            <span class="feature-tag">Quick start</span>
+                        </div>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon-wrapper">
+                            <div class="feature-icon">
+                                <i class="fas fa-palette"></i>
+                            </div>
+                            <div class="feature-badge">Elegant</div>
+                        </div>
+                        <h3>Diseño Minimalista</h3>
+                        <p>Interfaz limpia y profesional sin distracciones. Enfócate en lo que realmente importa.</p>
+                        <div class="feature-features">
+                            <span class="feature-tag">Clean UI</span>
+                            <span class="feature-tag">Focus mode</span>
+                        </div>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon-wrapper">
+                            <div class="feature-icon">
+                                <i class="fas fa-graduation-cap"></i>
+                            </div>
+                            <div class="feature-badge">Academic</div>
+                        </div>
+                        <h3>Para Estudiantes</h3>
+                        <p>Diseñado específicamente para el entorno académico. Herramientas inteligentes para tu éxito.</p>
+                        <div class="feature-features">
+                            <span class="feature-tag">Study tools</span>
+                            <span class="feature-tag">Research mode</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="videos" class="videos">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Videos</h2>
+                    <p class="section-subtitle">Conoce más sobre UniBook a través de nuestros videos</p>
+                </div>
+                <div class="videos-grid">
+                    <div class="video-card">
+                        <div class="video-wrapper">
+                            <video controls poster="assets1/video-poster.jpg">
+                                <source src="video_informativo_UniBook.mp4" type="video/mp4">
+                                Tu navegador no soporta la reproducción de videos.
+                            </video>
+                        </div>
+                        <div class="video-info">
+                            <h3>Video Informativo</h3>
+                            <p>Conoce todas las características y beneficios que UniBook ofrece para estudiantes.</p>
+                            <div class="video-meta">
+                                <span class="video-duration"><i class="fas fa-clock"></i> Duración: 3:45</span>
+                                <span class="video-quality"><i class="fas fa-video"></i> HD</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-grid">
+                <div class="footer-section">
+                    <div class="footer-brand">
+                        <img src="assets1/Logo-completo-UniBook.png" alt="UniBook" class="footer-logo">
+                        <h3>UniBook</h3>
+                        <p>Editor de texto profesional diseñado para estudiantes que buscan excelencia académica.</p>
+                    </div>
+                    <div class="footer-social">
+                        <a href="https://zavalastudio.itch.io/" target="_blank" class="social-link">
+                            <i class="fab fa-itch-io"></i>
+                        </a>
+                        <a href="https://www.instagram.com/zavala.studio_/?next=%2F" target="_blank" class="social-link">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://www.tiktok.com/@zavala.studio3" target="_blank" class="social-link">
+                            <i class="fab fa-tiktok"></i>
+                        </a>
+                        <a href="https://www.facebook.com/profile.php?id=61585566250014&locale=es_LA" target="_blank" class="social-link">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                </div>
+
+                <div class="footer-section">
+                </div>
+
+                <div class="footer-section">
+                    <h4>Producto</h4>
+                    <ul class="footer-links">
+                        <li><a href="#features">Características</a></li>
+                        <li><a href="#about">¿Qué es UniBook?</a></li>
+                        <li><a href="#videos">Videos</a></li>
+                        <li><a href="https://zavalastudio.itch.io/" target="_blank">Descargar</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <div class="footer-bottom-content">
+                    <p>&copy; 2025 ZavalaStudio. Todos los derechos reservados.</p>
+                    <p>Hecho con ❤️ para estudiantes worldwide</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Theme Toggle Functionality
+        const themeToggle = document.getElementById('theme-toggle');
+        const themeIcon = document.getElementById('theme-icon');
+        const html = document.documentElement;
+
+        // Check for saved theme preference or default to light
+        const currentTheme = localStorage.getItem('theme') || 'light';
+        html.setAttribute('data-theme', currentTheme);
+        updateThemeIcon(currentTheme);
+
+        themeToggle.addEventListener('click', () => {
+            const currentTheme = html.getAttribute('data-theme');
+            const newTheme = currentTheme === 'light' ? 'dark' : 'light';
+            
+            html.setAttribute('data-theme', newTheme);
+            localStorage.setItem('theme', newTheme);
+            updateThemeIcon(newTheme);
+        });
+
+        function updateThemeIcon(theme) {
+            if (theme === 'dark') {
+                themeIcon.classList.remove('fa-moon');
+                themeIcon.classList.add('fa-sun');
+            } else {
+                themeIcon.classList.remove('fa-sun');
+                themeIcon.classList.add('fa-moon');
+            }
+        }
+
+        // Smooth scroll for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+    </script>
+
+</body>
+</html>
