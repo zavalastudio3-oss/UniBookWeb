@@ -21,11 +21,11 @@
         </div>
         <div class="hero-content">
             <div class="hero-badge">
-                <span class="badge-text">🚀 Nuevo Editor 2025</span>
+                <span class="badge-text">Nuevo Editor 2026</span>
             </div>
-            <img src="assets1/Logo-completo-UniBook.png" alt="UniBook Logo" class="hero-logo">
+            <img src="assets1/UniBookRegistrado.png" alt="UniBook Logo" class="hero-logo">
             <h1 class="hero-title">
-                <span class="title-gradient">UniBook</span>
+                <span class="title-gradient">UniBook®</span>
                 <span class="title-subtitle">Editor de Texto Profesional</span>
             </h1>
             <p class="hero-description">
@@ -62,7 +62,7 @@
     <nav class="navbar">
         <div class="nav-container">
             <div class="nav-logo">
-                <img src="assets1/Logo-completo-UniBook.png" alt="UniBook" class="nav-logo-img">
+                <img src="assets1/UniBookRegistrado.png" alt="UniBook" class="nav-logo-img">
                 <span>UniBook</span>
             </div>
             <div class="nav-links">
@@ -70,6 +70,7 @@
                 <a href="#about">¿Qué es?</a>
                 <a href="#videos">Videos</a>
                 <a href="#gallery">Galería</a>
+                <a href="#updates" class="updates-trigger">Actualizaciones</a>
                 <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">
                     <i class="fas fa-moon" id="theme-icon"></i>
                 </button>
@@ -113,7 +114,7 @@
                             <div class="feature-icon">
                                 <i class="fas fa-rocket"></i>
                             </div>
-                            <div class="feature-badge">Ultra rápido</div>
+                            <div class="feature-badge">Veloz</div>
                         </div>
                         <h3>Ultra Ligero</h3>
                         <p>Solo 43 MB de espacio. Inicio instantáneo y rendimiento optimizado</p>
@@ -278,17 +279,132 @@
                             <p>Interfaz principal de UniBook tema oscuro</p>
                         </div>
                     </div>
+                    <div class="gallery-item scroll-animate">
+                        <div class="gallery-image-wrapper">
+                            <img src="assets1/PHEscolar.png" alt="UniBook Escolar" class="gallery-image">
+                            <div class="gallery-overlay">
+                                <div class="gallery-overlay-content">
+                                    <i class="fas fa-search-plus"></i>
+                                    <span>Vista Ampliada</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="gallery-info">
+                            <h3>Horario Escolar</h3>
+                            <p>¡Crea tu horario escolar personalizado y gestiona tus clases de manera efectiva!</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
     </main>
+
+    <!-- Updates Modal/Tab -->
+    <div id="updates-modal" class="updates-modal">
+        <div class="updates-modal-content">
+            <div class="updates-modal-header">
+                <h2>Actualizaciones de UniBook</h2>
+                <button class="updates-modal-close">&times;</button>
+            </div>
+            
+            <div class="updates-tabs">
+                <button class="updates-tab-btn active" data-tab="latest">Lo Último</button>
+                <button class="updates-tab-btn" data-tab="improvements">Mejoras</button>
+                <button class="updates-tab-btn" data-tab="fixes">Correcciones</button>
+            </div>
+
+            <div class="updates-tab-content">
+                <!-- Lo Último -->
+                <div class="updates-tab-pane active" id="latest">
+                    <div class="update-item">
+                        <div class="update-header">
+                            <span class="version-badge">v1.8 a 1.9</span>
+                            <span class="update-date">Proximamente</span>
+                        </div>
+                        <h3>Actualizaciones de UniBook</h3>
+                        <p>Nuevas y mejoradas herramientas para el estudio, esperalas pronto</p>
+                        <ul class="update-features">
+                            <li><i class="fas fa-check-circle"></i> Nuevas Graficadoras</li>
+                            <li><i class="fas fa-check-circle"></i> Mejoras en la optimización de UniBook</li>
+                            <li><i class="fas fa-check-circle"></i> Pantalla de carga mejorada, mas ligera y eficiente</li>
+                            <li><i class="fas fa-check-circle"></i> Mejoras en la IA de UniBook</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Mejoras -->
+                <div class="updates-tab-pane" id="improvements">
+                    <div class="update-item">
+                        <div class="update-header">
+                            <span class="version-badge improvement">MEJORA</span>
+                            <span class="update-date">Proximamente</span>
+                        </div>
+                        <h3>Proximas mejoras</h3>
+                        <p> Se desarrolla una nueva mejoras en rendimiento y posible compatibilidad con Android/IOS.</p>
+                        <ul class="update-features">
+                            <li><i class="fas fa-tachometer-alt"></i> Proximamente Android y IOS</li>
+                            <li><i class="fas fa-memory"></i> Mejor optimización</li>
+                            <li><i class="fas fa-battery-full"></i> Bajo consumo de bateria</li>
+                            <li><i class="fas fa-wifi"></i> Funcional sin Internet</li>
+                        </ul>
+                    </div>
+
+                    <div class="update-item">
+                        <div class="update-header">
+                            <span class="version-badge improvement">MEJORA</span>
+                            <span class="update-date">9 de marzo, 2026</span>
+                        </div>
+                        <h3> Interfaz Refinada</h3>
+                        <p>Mejoras sutiles pero importantes en la experiencia de usuario.</p>
+                        <ul class="update-features">
+                            <li><i class="fas fa-adjust"></i> Contraste mejorado para mayor legibilidad</li>
+                            <li><i class="fas fa-hand-pointer"></i> Animaciones más suaves</li>
+                            <li><i class="fas fa-keyboard"></i> Atajos de teclado adicionales y reparados</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Correcciones -->
+                <div class="updates-tab-pane" id="fixes">
+                    <div class="update-item">
+                        <div class="update-header">
+                            <span class="version-badge fix">CORRECCIÓN</span>
+                            <span class="update-date">Proximamente</span>
+                        </div>
+                        <h3> Corrección de Bugs Críticos</h3>
+                        <p>Hemos resuelto problemas importantes para mejorar la estabilidad.</p>
+                        <ul class="update-features">
+                            <li><i class="fas fa-shield-alt"></i> Mejora en impresión de PDF</li>
+                            <li><i class="fas fa-save"></i> Problemas de guardado resueltos</li>
+                            <li><i class="fas fa-sync"></i> Guardados manuales mejorados</li>
+                            <li><i class="fas fa-file-alt"></i> Mejor lectura de archivos guardados</li>
+                        </ul>
+                    </div>
+
+                    <div class="update-item">
+                        <div class="update-header">
+                            <span class="version-badge fix">CORRECCIÓNES FUTURAS</span>
+                            <span class="update-date">Desarrollo proximo</span>
+                        </div>
+                        <h3> Estabilidad Mejorada de la IA (Próximamente)</h3>
+                        <p>Correcciones en desarrollo.</p>
+                        <ul class="update-features">
+                            <li><i class="fas fa-exclamation-triangle"></i> Autoguardado automático</li>
+                            <li><i class="fas fa-font"></i> Problemas de fuentes, se integraran con la app</li>
+                            <li><i class="fas fa-search"></i> Búsqueda mejorada, e inteligente</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <footer>
         <div class="footer-content">
             <div class="footer-grid">
                 <div class="footer-section">
                     <div class="footer-brand">
-                        <img src="assets1/Logo-completo-UniBook.png" alt="UniBook" class="footer-logo">
+                        <img src="assets1/UniBookRegistrado.png" alt="UniBook" class="footer-logo">
                         <h3>UniBook</h3>
                         <p>Editor de texto profesional diseñado para estudiantes que buscan excelencia académica.</p>
                     </div>
@@ -328,7 +444,7 @@
             
             <div class="footer-bottom">
                 <div class="footer-bottom-content">
-                    <p>&copy; 2025 ZavalaStudio. Todos los derechos reservados.</p>
+                    <p>&copy; 2026 ZavalaStudio. Todos los derechos reservados.</p>
                     <p>Hecho con ❤️ para estudiantes worldwide</p>
                 </div>
             </div>
@@ -432,6 +548,123 @@
         document.addEventListener('keydown', function(e) {
             if (e.key === 'Escape' && lightboxModal.classList.contains('active')) {
                 lightboxModal.classList.remove('active');
+                document.body.style.overflow = 'auto';
+            }
+        });
+
+        // Updates Modal System
+        const updatesModal = document.getElementById('updates-modal');
+        const updatesTrigger = document.querySelector('.updates-trigger');
+        const updatesModalClose = document.querySelector('.updates-modal-close');
+
+        // Open updates modal
+        updatesTrigger.addEventListener('click', function(e) {
+            e.preventDefault();
+            updatesModal.classList.add('active');
+            document.body.style.overflow = 'hidden';
+        });
+
+        // Close updates modal
+        updatesModalClose.addEventListener('click', function() {
+            updatesModal.classList.remove('active');
+            document.body.style.overflow = 'auto';
+        });
+
+        // Close modal when clicking outside
+        updatesModal.addEventListener('click', function(e) {
+            if (e.target === updatesModal) {
+                updatesModal.classList.remove('active');
+                document.body.style.overflow = 'auto';
+            }
+        });
+
+        // Tab functionality - Simplified and Enhanced
+        const tabButtons = document.querySelectorAll('.updates-tab-btn');
+        const tabPanes = document.querySelectorAll('.updates-tab-pane');
+
+        console.log('=== TAB SYSTEM DEBUG ===');
+        console.log('Tab buttons found:', tabButtons.length);
+        console.log('Tab panes found:', tabPanes.length);
+        
+        // List all panes
+        tabPanes.forEach((pane, index) => {
+            console.log(`Pane ${index}:`, pane.id, pane.className);
+        });
+
+        function switchTab(targetTab) {
+            console.log('\n=== SWITCHING TO TAB ===');
+            console.log('Target tab:', targetTab);
+            
+            // Hide all panes
+            tabPanes.forEach(pane => {
+                pane.classList.remove('active');
+                pane.style.display = 'none';
+                pane.style.opacity = '0';
+                pane.style.visibility = 'hidden';
+                console.log('Hiding pane:', pane.id);
+            });
+            
+            // Remove active from all buttons
+            tabButtons.forEach(btn => {
+                btn.classList.remove('active');
+            });
+            
+            // Show target pane
+            const targetPane = document.getElementById(targetTab);
+            console.log('Target pane element:', targetPane);
+            
+            if (targetPane) {
+                // Activate button
+                const targetButton = document.querySelector(`[data-tab="${targetTab}"]`);
+                if (targetButton) {
+                    targetButton.classList.add('active');
+                    console.log('Activated button:', targetButton.textContent);
+                }
+                
+                // Activate pane with multiple methods
+                targetPane.classList.add('active');
+                targetPane.style.display = 'block';
+                targetPane.style.opacity = '1';
+                targetPane.style.visibility = 'visible';
+                targetPane.style.position = 'relative';
+                targetPane.style.zIndex = '1';
+                
+                console.log('Pane styles after activation:');
+                console.log('- display:', targetPane.style.display);
+                console.log('- opacity:', targetPane.style.opacity);
+                console.log('- visibility:', targetPane.style.visibility);
+                console.log('- classes:', targetPane.className);
+                console.log('Successfully activated pane:', targetTab);
+            } else {
+                console.error('PANE NOT FOUND:', targetTab);
+            }
+        }
+
+        tabButtons.forEach((button, index) => {
+            button.addEventListener('click', function() {
+                const targetTab = this.getAttribute('data-tab');
+                console.log('\n=== BUTTON CLICKED ===');
+                console.log('Button index:', index);
+                console.log('Button data-tab:', targetTab);
+                console.log('Button text:', this.textContent);
+                switchTab(targetTab);
+            });
+        });
+
+        // Initialize first tab after a short delay
+        setTimeout(() => {
+            console.log('\n=== INITIALIZING FIRST TAB ===');
+            if (tabButtons.length > 0) {
+                const firstTab = tabButtons[0].getAttribute('data-tab');
+                console.log('First tab to initialize:', firstTab);
+                switchTab(firstTab);
+            }
+        }, 100);
+
+        // Close modal with Escape key
+        document.addEventListener('keydown', function(e) {
+            if (e.key === 'Escape' && updatesModal.classList.contains('active')) {
+                updatesModal.classList.remove('active');
                 document.body.style.overflow = 'auto';
             }
         });
