@@ -442,9 +442,23 @@ section {
     color: #ffffff;
 }
 
+.testimonials-header-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    margin-bottom: 1rem;
+}
+
+.testimonials-left-image,
+.testimonials-right-image {
+    max-width: 80px;
+    height: auto;
+}
+
 .testimonials-subtitle {
     font-family: 'Open Sans', sans-serif;
-    color: #e74c3c;
+    color: #3498db;
 }
 
 [data-theme="dark"] .testimonials-subtitle {
@@ -459,6 +473,20 @@ section {
 
 [data-theme="dark"] .features-title {
     color: #ffffff;
+}
+
+.features-header-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    margin-bottom: 1rem;
+}
+
+.features-left-image,
+.features-right-image {
+    max-width: 50px;
+    height: auto;
 }
 
 .features-subtitle {
